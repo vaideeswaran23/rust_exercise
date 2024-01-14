@@ -25,7 +25,7 @@ fn converter() {
     let c : f64 = c.trim().parse().expect("Invalid string, please enter a number");
     let f : f64 = (c * 9.0/5.0) + 32.0;
 
-    println!("Given celsius = {c}, converted fahreinheit = {f}");
+    println!("Given celsius = {c}, converted fahreinheit = {f}")
 
 }
 
